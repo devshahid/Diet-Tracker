@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 20px;
+}
+.screenContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  height: 85vh;
+}
+.screenContainer h3 {
+  font-size: 32px;
+  padding: 20px 40px;
+}
+
+th,
+td {
+  padding: 20px 15px;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 8px 0;
+}
+.buttonContainer button {
+  padding: 10px;
+  border: 1px solid black;
+  margin: 5px 0;
+  color: black;
+  font-weight: bold;
+}

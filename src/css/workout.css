@@ -1,0 +1,12 @@
+.workoutContainer {
+  background: rgb(161, 155, 155);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.workoutContainer h1 {
+  font-size: 40px;
+}
